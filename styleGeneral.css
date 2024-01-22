@@ -1,0 +1,55 @@
+*{
+
+}
+body{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 4% 3% 78% 13%;
+}
+.grid_enTete{
+   /* background-color: red;*/ /* ==> TEST */
+    display: grid;
+    grid-template-rows: subgrid;
+    grid-template-columns: 2% 96.5% 1.5%;
+}
+.subGrid_enTete_PPrinc{
+    /*background-color: pink;*/ /* ==> TEST */
+    grid-column: 1 / 2;
+    background-image: url("Capture d'écran 2023-12-24 191519.png");
+    background-position: center;
+    background-size: cover;
+}
+.subGrid_enTete_milieux{
+    /*background-color: cyan;    */ /* ==> TEST */
+    grid-column: 2 / 3; 
+
+}
+.subGrid_enTete_Profil{ /* person-outline */
+    /*background-color: magenta;    */
+    grid-column: 3 / -1;
+    background-image: url("person-outline.svg");
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+.grid_bandeaux{
+    /*background-color: green;*/ /* ==> TEST */
+}
+.grid_contenu{
+    /*background-color: blue;*/ /* ==> TEST */
+   
+}
+.grid_MLegales{
+   /* background-color: yellow;*/ /* ==> TEST */
+}
